@@ -12,7 +12,6 @@ function Home() {
     useEffect(() => {
         document.title = 'IT-SYSTEM - Accueil';
     }, []);
-
     return (
         <>
             <HomeCarousel/>
