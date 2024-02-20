@@ -1,0 +1,21 @@
+.activePage button{
+    background: orange;
+    color: black;
+    font-weight: bolder;
+}
+
+.activePage button:hover{
+    background: #e79601;
+    color: black;
+}
+
+
+.previousButton{
+    background: orange;
+    color: black;
+}
+
+.previousButton:hover{
+    background: #e79601;
+    color: black;
+}

@@ -14,7 +14,7 @@ function GetInTouchBar() {
                 <h3>Contactez-nous</h3>
                 <button id={"myInput"} type="button" className="btn btn-primary" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
-                    Contact Us
+                    Cliquer ici
                 </button>
             </div>
 

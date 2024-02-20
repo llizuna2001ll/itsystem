@@ -9,3 +9,9 @@
 html{
     overflow-y: overlay;
 }
+
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}

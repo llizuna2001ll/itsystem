@@ -1,0 +1,8 @@
+.productContainer {
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.productContainer:hover {
+    transform: scale(1.1);
+}

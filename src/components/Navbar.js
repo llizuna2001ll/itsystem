@@ -3,6 +3,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../style/Navbar.css";
 import Header from "./Header";
 import {Link} from "react-router-dom";
+import {NavDropdown} from "react-bootstrap";
+import DropDownComponent from "./DropDownComponent";
 
 function Navbarr() {
 
@@ -21,11 +23,12 @@ function Navbarr() {
                     <Navbar.Brand className="logo">IT-SYSTEM</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link><Link className="navigation-item" to="/">ACCUEIL</Link></Nav.Link>
-                        <Nav.Link><Link className="navigation-item" to="/societe">SOCIÉTÉ</Link></Nav.Link>
-                        <Nav.Link><Link className="navigation-item" to="/services">SERVICES</Link></Nav.Link>
+                        <DropDownComponent/>
+                        <Nav.Link><Link className="navigation-item" to="/company">SOCIETE</Link></Nav.Link>
                     </Nav>
                 </div>
             </Navbar>
+
         </>
     );
 }
