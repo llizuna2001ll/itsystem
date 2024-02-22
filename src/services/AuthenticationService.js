@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://34.224.31.157:8080/api/auth"
+const API_URL = "https://34.224.31.157:8080/api/auth"
 
 const AuthService = {
     register: (registerRequest) => {

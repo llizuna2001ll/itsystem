@@ -74,7 +74,7 @@ function Footer() {
                             href="#"><i className="lni lni-twitter-original"></i></a><a href="#"><i
                             className="lni lni-instagram-original"></i></a></div>
                     </div>
-                    <p className="copyright">IT-SYSTEM © 2020</p>
+                    <Link className={"text-decoration-none"} to={"/admin"}><p className="copyright">IT-SYSTEM © 2020</p></Link>
                 </div>
             </footer>
         </div>
