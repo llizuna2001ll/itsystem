@@ -31,7 +31,7 @@ function App() {
                             <Route path="/category1" element={<Category1/>}></Route>
                             <Route path="/products/:categoryName" element={<AllProductsPage/>}></Route>
                             <Route path="/products/:categoryName/:productName" element={<ProductPage/>}></Route>
-                            <Route path="/admin" element={<AdminDashboard/>}></Route>
+                            <Route path="/dashboard" element={<AdminDashboard/>}></Route>
                         </Routes>
                     </SmoothScroll>
                 </div>

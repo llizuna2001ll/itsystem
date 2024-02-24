@@ -19,13 +19,14 @@ function AuthenticationPage() {
                 password: password
             });
             localStorage.setItem('jwt', response.data.access_token);
-            // Redirect to dashboard or another page upon successful authentication
-            navigate('/dashboard');
+            // Refresh the page instead of navigating
+            window.location.reload();
         } catch (error) {
             setLoginError(error.response.data);
         }
         setIsLoading(false);
     };
+
 
     return (
         <div style={{ height: "60vh" }} className="container d-flex justify-content-center align-items-center">

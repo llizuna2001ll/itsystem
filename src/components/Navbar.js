@@ -24,7 +24,7 @@ function Navbarr() {
                     <Nav className="me-auto">
                         <Nav.Link><Link className="navigation-item" to="/">ACCUEIL</Link></Nav.Link>
                         <DropDownComponent/>
-                        <Nav.Link><Link className="navigation-item" to="/company">SOCIETE</Link></Nav.Link>
+                        <Nav.Link><Link className="navigation-item" to="/societe">SOCIETE</Link></Nav.Link>
                     </Nav>
                 </div>
             </Navbar>

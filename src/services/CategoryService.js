@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "https://34.224.31.157:8080/api/v1/categories";
+const API_URL = "http://34.196.130.64:8080/api/v1/categories";
 
 const getToken = () => {
     return localStorage.getItem('jwt');
